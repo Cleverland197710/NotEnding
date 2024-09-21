@@ -4,6 +4,13 @@ using UnityEngine;
 
 public class Playercontroller : MonoBehaviour
 {
+    //Adds audio to the player
+    public AudioClip jump;
+    public AudioClip backgroundMusic;
+
+    public AudioSource sfxPlayer;
+    public AudioSource musicPlayer;
+    
     //Create a refrence to the Rigidbody2D so we can manipulate it
     Rigidbody2D playerObject;
     public float speed = 10; 
