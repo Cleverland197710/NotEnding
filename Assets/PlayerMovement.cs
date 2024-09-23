@@ -18,6 +18,8 @@ public class PlayerMovement : MonoBehaviour
     public float checkRadius = 0.2f;       // Radius of the overlap circle for ground detection
     public LayerMask groundLayer;          // Layer of the ground objects
 
+    public bool doubleJump;
+
     private Rigidbody2D rb;                // Refrence to the Rigidbody2D component
     private bool isGrounded;               // Is the player on the ground?
    
@@ -40,6 +42,11 @@ public class PlayerMovement : MonoBehaviour
         {
             jump();
         }
+
+        if(Input.GetButtonUp("jump") && rb.velocity.y > 0f)
+        {
+            rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y) * (2f);
+        }
     }
         
     private void jump()
@@ -48,6 +55,7 @@ public class PlayerMovement : MonoBehaviour
         // Add an upward force for jumping
         rb.velocity = new Vector2(rb.velocity.x, jumpforce);
     }
+
 
     private void OnDrawGizmosSelected()
     {
