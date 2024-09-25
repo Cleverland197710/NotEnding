@@ -1,0 +1,570 @@
+fileFormatVersion: 2
+guid: 4eef510636700c44ba6c5b5f15ca3e5f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Jump-Char-Complete-Sheet-tranparent 1_0
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 807
+        width: 84
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5973b7dc6811e6f469de73024c103c78
+      internalID: 912281821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Char-Complete-Sheet-tranparent 1_1
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 806
+        width: 96
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc886e793c7e0ec48b9ab24f82d7b07c
+      internalID: -962602105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Char-Complete-Sheet-tranparent 1_2
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 807
+        width: 115
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e48e0308635e65e40b85f227a48dcb8a
+      internalID: 151719930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Char-Complete-Sheet-tranparent 1_3
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 811
+        width: 110
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 712f8666d6e33e14c950ce135de9f075
+      internalID: 852433855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Char-Complete-Sheet-tranparent 1_4
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 816
+        width: 110
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b79a24f9ab3145d41bdea6c33f583791
+      internalID: -1169208765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Char-Complete-Sheet-tranparent 1_5
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 643
+        width: 92
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a403a4b4bfc8504da3ec7de1d6c3d44
+      internalID: 1452691068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Char-Complete-Sheet-tranparent 1_6
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 644
+        width: 106
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54448d5f57c04684a8533574ad62354b
+      internalID: -131441844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Char-Complete-Sheet-tranparent 1_7
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 647
+        width: 112
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d135969a8ec07ca45b225713ab62dd65
+      internalID: 634510450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Char-Complete-Sheet-tranparent 1_8
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 652
+        width: 124
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80d7ee4315929c849b9f4ab021cac21a
+      internalID: -2071326146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Char-Complete-Sheet-tranparent 1_11
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 671
+        width: 124
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2271e557d24c374292c536c0e3fb2b7
+      internalID: -2139620237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Char-Complete-Sheet-tranparent 1_14
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 471
+        width: 79
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a902c61b7bbe5647ad9adeb312037ec
+      internalID: -939722639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Char-Complete-Sheet-tranparent 1_15
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 467
+        width: 72
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dbd7d5f82b7fa242a59ac1c479eaa95
+      internalID: -1947160232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Char-Complete-Sheet-tranparent 1_16
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 471
+        width: 79
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 165b8136cf9d22d41b104c3d1e063375
+      internalID: -1015184739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Char-Complete-Sheet-tranparent 1_17
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 467
+        width: 72
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3edd2cbe3f3dae34a9f482912306d71c
+      internalID: 766574804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Char-Complete-Sheet-tranparent 1_18
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 471
+        width: 79
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b24e0bcf10eb94f9a9140a68457eb8
+      internalID: 283882012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Char-Complete-Sheet-tranparent 1_19
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 267
+        width: 72
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 681c50134bb5c724898eae6502eec730
+      internalID: -1736140414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Char-Complete-Sheet-tranparent 1_20
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 298
+        width: 67
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35283db77509ca34c8279c726c3e9775
+      internalID: -2132364486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Char-Complete-Sheet-tranparent 1_21
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 271
+        width: 110
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 502afc2b4a46f994da74cacbf30d1da8
+      internalID: 645092515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Jump-Char-Complete-Sheet-tranparent 1_0: 912281821
+      Jump-Char-Complete-Sheet-tranparent 1_1: -962602105
+      Jump-Char-Complete-Sheet-tranparent 1_10: 1580561498
+      Jump-Char-Complete-Sheet-tranparent 1_11: -2139620237
+      Jump-Char-Complete-Sheet-tranparent 1_12: -943075614
+      Jump-Char-Complete-Sheet-tranparent 1_13: 2147334918
+      Jump-Char-Complete-Sheet-tranparent 1_14: -939722639
+      Jump-Char-Complete-Sheet-tranparent 1_15: -1947160232
+      Jump-Char-Complete-Sheet-tranparent 1_16: -1015184739
+      Jump-Char-Complete-Sheet-tranparent 1_17: 766574804
+      Jump-Char-Complete-Sheet-tranparent 1_18: 283882012
+      Jump-Char-Complete-Sheet-tranparent 1_19: -1736140414
+      Jump-Char-Complete-Sheet-tranparent 1_2: 151719930
+      Jump-Char-Complete-Sheet-tranparent 1_20: -2132364486
+      Jump-Char-Complete-Sheet-tranparent 1_21: 645092515
+      Jump-Char-Complete-Sheet-tranparent 1_22: -934347535
+      Jump-Char-Complete-Sheet-tranparent 1_23: 1383481572
+      Jump-Char-Complete-Sheet-tranparent 1_24: -357886322
+      Jump-Char-Complete-Sheet-tranparent 1_25: 1572880256
+      Jump-Char-Complete-Sheet-tranparent 1_3: 852433855
+      Jump-Char-Complete-Sheet-tranparent 1_4: -1169208765
+      Jump-Char-Complete-Sheet-tranparent 1_5: 1452691068
+      Jump-Char-Complete-Sheet-tranparent 1_6: -131441844
+      Jump-Char-Complete-Sheet-tranparent 1_7: 634510450
+      Jump-Char-Complete-Sheet-tranparent 1_8: -2071326146
+      Jump-Char-Complete-Sheet-tranparent 1_9: -1113139849
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
