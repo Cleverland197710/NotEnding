@@ -22,15 +22,22 @@ public class PlayerMovement : MonoBehaviour
 
     private Rigidbody2D rb;                // Refrence to the Rigidbody2D component
     private bool isGrounded;               // Is the player on the ground?
-   
+    private bool startFall;
+
+    public Animator anim;
+
+    //
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();  // Get the Rigidbody2D component attached to the player
         hopSfx = GetComponent<AudioSource>();
+        //anim = GetComponent<Animator>();
     }
 
     void Update()
     {
+        //anim.SetBool("IsOnGround", isOnGround);
+
         // Constant forward movement
         rb.velocity = new Vector2(movespeed, rb.velocity.y);
 
@@ -43,9 +50,28 @@ public class PlayerMovement : MonoBehaviour
             jump();
         }
 
+        /*
         if(Input.GetButtonUp("jump") && rb.velocity.y > 0f)
         {
             rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y) * (2f);
+        }
+        */
+
+        if (startFall)
+        {
+            anim.SetBool("StartFall", true);
+        }
+        if (startFall == false)
+        {
+            anim.SetBool("StartFall", false);
+        }
+        if (isGrounded)
+        {
+            anim.SetBool("IsGrounded", true);
+        }
+        if (isGrounded == false)
+        {
+            anim.SetBool("IsGrounded", false);
         }
     }
         
