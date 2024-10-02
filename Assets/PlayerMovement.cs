@@ -57,14 +57,7 @@ public class PlayerMovement : MonoBehaviour
         }
         */
 
-        if (startFall)
-        {
-            anim.SetBool("StartFall", true);
-        }
-        if (startFall == false)
-        {
-            anim.SetBool("StartFall", false);
-        }
+
         if (isGrounded)
         {
             anim.SetBool("IsGrounded", true);
