@@ -26,6 +26,8 @@ public class PlayerMovement : MonoBehaviour
 
     public Animator anim;
 
+    public bool isPlaying = true;
+
     //
     void Start()
     {
@@ -36,6 +38,11 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        
+        //Let the game kow its being played
+        if (Input.GetKeyDown(KeyCode.Space)) {
+            isPlaying = true;
+        }
         //anim.SetBool("IsOnGround", isOnGround);
 
         // Constant forward movement
