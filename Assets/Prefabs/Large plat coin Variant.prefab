@@ -86,6 +86,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Large plat coin Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 3846611236909662576, guid: d6efb1b66e817514e9d343a7e0518967, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7695749415370860851, guid: d6efb1b66e817514e9d343a7e0518967, type: 3}
       propertyPath: m_LocalPosition.x
       value: -24

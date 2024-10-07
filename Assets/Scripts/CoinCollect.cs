@@ -14,6 +14,7 @@ public class CoinCollect : MonoBehaviour
 
             // Destroy the coin when it hits the player
             Destroy(gameObject);
+            
         }
     }
 }
