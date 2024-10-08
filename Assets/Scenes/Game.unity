@@ -589,10 +589,11 @@ MonoBehaviour:
   movespeed: 13
   jumpforce: 25
   groundCheckPoint: {fileID: 383854988}
-  checkRadius: 1
+  checkRadius: 2
   groundLayer:
     serializedVersion: 2
     m_Bits: 8
+  gravity: 4.5
   doubleJump: 0
   anim: {fileID: 383854991}
   isPlaying: 0

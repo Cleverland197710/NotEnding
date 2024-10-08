@@ -17,6 +17,7 @@ public class PlayerMovement : MonoBehaviour
     public Transform groundCheckPoint;     // A point to check if the player is grounded
     public float checkRadius = 0.2f;       // Radius of the overlap circle for ground detection
     public LayerMask groundLayer;          // Layer of the ground objects
+    public float gravity = 4.5f;
 
     public bool doubleJump;
 
@@ -57,6 +58,11 @@ public class PlayerMovement : MonoBehaviour
             jump();
         }
 
+        if (isGrounded = false && Input.GetKeyDown(KeyCode.Space))
+        {
+            fall();        
+        }
+
         /*
         if(Input.GetButtonUp("jump") && rb.velocity.y > 0f)
         {
@@ -80,6 +86,12 @@ public class PlayerMovement : MonoBehaviour
         playerSfx.PlayOneShot(airSpin);
         // Add an upward force for jumping
         rb.velocity = new Vector2(rb.velocity.x, jumpforce);
+    }
+
+    private void fall()
+    {
+        // Add an upward force for jumping
+        rb.gravityScale = (gravity * 10);
     }
 
 
