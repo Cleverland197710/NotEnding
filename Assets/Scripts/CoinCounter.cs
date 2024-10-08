@@ -25,7 +25,7 @@ public class CoinCounter : MonoBehaviour
     
     public void IncreaseCoins(int v)
     {
-        currentCoins += v;
+        currentCoins = (currentCoins + v);
         coinText.text = "COINS: " + currentCoins.ToString();
     }
     
