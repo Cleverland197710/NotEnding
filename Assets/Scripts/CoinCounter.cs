@@ -16,6 +16,7 @@ public class CoinCounter : MonoBehaviour
     {
         instance = this;
     }
+
     // Start is called before the first frame update void Start()
     void Start()
     {
