@@ -28,5 +28,5 @@ public class CoinCounter : MonoBehaviour
         currentCoins = (currentCoins + v);
         coinText.text = "COINS: " + currentCoins.ToString();
     }
-    
+
 }

@@ -320,10 +320,10 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1.66
+  m_Mass: 5
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 6
+  m_GravityScale: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -414,6 +414,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17c98b638a06f2144b73d043eb8a8dfb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  jump: {fileID: 0}
+  backgroundMusic: {fileID: 0}
+  sfxPlayer: {fileID: 0}
+  musicPlayer: {fileID: 0}
   speed: 10
 --- !u!114 &383854990
 MonoBehaviour:
@@ -427,6 +431,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d60f9fb8d5efff4eb108906edd5b811, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  airSpin: {fileID: 0}
+  backgroundMusic: {fileID: 0}
+  hopSfx: {fileID: 0}
+  playerSfx: {fileID: 0}
+  musicPlayer: {fileID: 0}
   movespeed: 13
   jumpforce: 25
   groundCheckPoint: {fileID: 383854988}
@@ -434,6 +443,10 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 8
+  gravity: 1
+  doubleJump: 0
+  anim: {fileID: 0}
+  isPlaying: 1
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0

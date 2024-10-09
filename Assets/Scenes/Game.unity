@@ -1157,6 +1157,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Roof
       objectReference: {fileID: 0}
+    - target: {fileID: 1181901385017820651, guid: f6ec674320136fe47b7df578ffe0b7f5, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3003128876689076390, guid: f6ec674320136fe47b7df578ffe0b7f5, type: 3}
       propertyPath: m_LocalScale.x
       value: 21.526876
